@@ -1,0 +1,36 @@
+/* Basic styles for the side navigation */
+/* Style for the side navigation menu */
+.sidenav {
+    height: 40%;
+    width: 80px;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    background-color: #33333391;
+    overflow-x: hidden;
+    padding-top: 20px;
+    /* margin-top: 50vh; */
+    transform: translateY(-50%);
+
+}
+
+/* Style for the navigation links */
+.sidenav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidenav li {
+    padding: 10px 15px;
+}
+
+.sidenav a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    background-color: #555;
+}

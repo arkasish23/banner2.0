@@ -1,0 +1,40 @@
+/* Add styles for the image slider and buttons */
+.slider-container {
+    /* position: relative;
+    max-width: 100%; */
+    /* margin: 0 auto; */
+    overflow: hidden;
+    height: 100vh;
+    /* width: 60vw; */
+}
+
+.slider {
+    /* display: flex; */
+    transition: transform 0.3s ease-in-out;
+}
+
+.slider img {
+    width: 100%;
+    /* height: auto; */
+}
+
+.prev-button, .next-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.3);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 20px;
+    z-index: -1;
+}
+
+.prev-button {
+    left: 0;
+}
+
+.next-button {
+    right: 0;
+}
